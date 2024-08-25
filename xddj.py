@@ -1,6 +1,6 @@
 #   --------------------------------注释区--------------------------------
 #   入口:https://www.xingdouduanju.com/pages/register/index.html?invite_code=351449 走个头谢谢
-#   变量:yuanshen_xddj 多号@
+#   变量:s_xddj 多号@
 #   抓取Authorization的值填入
 #   corn: 八小时一次 22 8-23/8 * * *
 exchange = True #是否自动兑换猪 开启True 关闭False
@@ -274,9 +274,9 @@ if __name__ == '__main__':
     version()
     cookie = ''
     if not cookie:
-        cookie = os.getenv("yuanshen_xddj")
+        cookie = os.getenv("s_xddj")
         if not cookie:
-            print("请设置环境变量:yuanshen_xddj")
+            print("请设置环境变量:s_xddj")
             exit()
     cookies = cookie.split("@")
     print(f"一共获取到{len(cookies)}个账号")
