@@ -1,7 +1,7 @@
 # 软件星芽短剧
 # 青龙变量s_xydj，抓取软件变量Authorization
 # cron: 0 0 6,12,18 * * *
-# const $ = new Env('星芽免费短剧');
+# const $ = new Env('星芽短剧');
 
 
 from cgitb import text
