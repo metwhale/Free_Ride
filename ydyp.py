@@ -3,7 +3,7 @@
 #   - [抓包 Cookie：任意Authorization]
 #   - [注意事项: 简易方法，开抓包进App，搜refresh，找到authTokenRefresh.do ，请求头中的Authorization，响应体<token> xxx</token> 中xxx值（新版加密抓这个）]
 # 环境变量设置:
-#   - 名称：[ydypCk]   格式：[Authorization值#手机号]
+#   - 名称：[s_ydyp]   格式：[Authorization值#手机号]
 #   - 多账号处理方式：[换行或者@分割]
 # cron 20 44 8,16,20 * * *
 # const $ = new Env('移动云盘');
@@ -676,7 +676,7 @@ class YP:
 
 
 if __name__ == "__main__":
-    env_name = 'ydypCk'
+    env_name = 's_ydyp'
     py_name = '移动云盘'
     token = os.getenv(env_name)
     if not token:
