@@ -4,7 +4,7 @@
 #   多号分割方式 [ @ 或 换行 或 新建同名变量 ]
 #   抓取userapi.qiekj.com域名下Authorization的值填入 或 userapi.qiekj.com域名下请求体中token的值 或 支付宝小程序userapi.qiekj.com域名下请求体的值
 #   完成app任务 zfb任务等
-#   corn: 一天一次即可
+#   cron 22 55 1 * * *
 #   --------------------------------祈求区--------------------------------
 # const $ = new Env('胖乖生活');
 #                     _ooOoo_
