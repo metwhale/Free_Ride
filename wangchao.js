@@ -1,6 +1,6 @@
 /**
  * APP下载入口：https://tzapp.taizhou.com.cn/webChannels/invite?inviteCode=GBAVN9&tenantId=64&accountId=66c6a7986ab0c819a232b42f
- * cron "20 9,15,21 * * *" s_wangchao.js
+ * cron 20 9,16,21 * * *
  * export s_wangchao="账号1&密码1 账号2&密码2"
  * 需手动抽奖和提现：进入APP-阅读有礼-抽奖
  */
