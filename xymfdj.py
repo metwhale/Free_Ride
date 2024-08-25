@@ -1,5 +1,5 @@
 # 软件星芽短剧
-# 青龙变量xydj，抓取软件变量Authorization
+# 青龙变量s_xydj，抓取软件变量Authorization
 # cron: 0 0 6,12,18 * * *
 # const $ = new Env('星芽免费短剧');
 
@@ -13,8 +13,8 @@ import os
 import random
 
 adv=1
-if os.environ.get("xydj"):
-    dvm = os.environ["xydj"]
+if os.environ.get("s_xydj"):
+    dvm = os.environ["s_xydj"]
     if dvm != '':
         if "@" in dvm:
             Coo = dvm.split("@")
