@@ -1,11 +1,12 @@
 /*
-
-依赖：jsrsasign
-小程序：蜜雪冰城
-域名：mxsa.mxbc.net
-请求头：Access-Token：XXXXXXX
-变量：export s_mxbc = 'XXXXXXX'(多账号使用@分割)
+* 依赖：jsrsasign
+* 小程序：蜜雪冰城
+* 域名：mxsa.mxbc.net
+* 请求头：Access-Token：XXXXXXX
+* 变量：export s_mxbc = 'XXXXXXX'(多账号使用@分割)
+* cron 1 1 11 * * *
 */
+
 const $ = new Env('蜜雪冰城');
 const axios = require('axios');
 let request = require("request");
