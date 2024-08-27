@@ -6,7 +6,7 @@
 #   多号分割方式 [ @ 或 换行 或 新建同名变量 ]
 #   抓取请求头中udtauth12的值填入 直接搜udtauth12
 #   在抓取上面的参数时同时抓取请求头中的user-agent填入yuanshen_useragent
-#   corn: 一小时一次即可
+#    cron 21 * * * *
 
 #   检测配置：
 #   在yuanshen_apptoken，yuanshen_topicid分别填入你的wxpusher的apptoken和topicid
@@ -17,6 +17,7 @@ withdrawal_money = 3000 #提现金币数量 1000金币=0.1r
 Quantity_limit = 170  #阅读上限篇数 跑满(195篇左右)概率封号
 fuck_list = [1,2,126] # 强制推送篇数 不懂默认别瞎改 需要新加的话在后面用 英文逗号加篇数 就行 
 #   --------------------------------一般不动区--------------------------------
+# const $ = new Env('可乐阅读A');
 #                     _ooOoo_
 #                    o8888888o
 #                    88" . "88
