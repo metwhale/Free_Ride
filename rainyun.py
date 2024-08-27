@@ -1,7 +1,8 @@
 #   注册入口 https://www.rainyun.com/NDYxOTUz_
 #   注册登录后在‘账户设置’获得api key值
 #   创建环境变量 s_yuyun,将上面获取的api_key值填入 
-#   cron: 0 8 * * *  /ql/data/repo/lihailong1995_qinglong/雨云签到.py
+#   cron: 0 8 * * *
+#   const $ = new Env('雨云签到');
 import requests
 import json
 import os  
