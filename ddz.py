@@ -5,6 +5,8 @@
 #   变量名：s_ddz    变量名值的格式：备注#cookie#提现金额（元）#wxpusher的apptoken#主题id#提现支付宝名字#支付宝账号
 #   支持多号,多号之间用换行符(回车键)
 #   提现功能不再可用，请自行提现。。。
+#   const $ = new Env('点点赚');
+#   cron 10 * * * *
 
 import hashlib
 import json
