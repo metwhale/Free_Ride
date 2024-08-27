@@ -6,7 +6,7 @@
 #   格式 ysmuid#unionid
 #   接口变化会自动停止
 #   在抓取上面的参数时同时抓取请求头中的user-agent填入yuanshen_useragent
-#   cron 11 21 * * * *
+#   cron 20 * * * *
 #   不分AB版本了 合一了
 #
 #   检测配置：
