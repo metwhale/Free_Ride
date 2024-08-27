@@ -6,7 +6,7 @@
 #   多号分割方式 [ @ 或 换行 或 新建同名变量 ]
 #   抓取请求头中udtauth12的值填入 直接搜udtauth12
 #   在抓取上面的参数时同时抓取请求头中的user-agent填入yuanshen_useragent
-#    cron 21 * * * *
+#   cron 30 * * * *
 
 #   检测配置：
 #   在yuanshen_apptoken，yuanshen_topicid分别填入你的wxpusher的apptoken和topicid
