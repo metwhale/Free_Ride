@@ -8,7 +8,7 @@
 #   注意是填的topicid而不是你的uid 不要傻乎乎把uid填上去 填了不推送文章黑号的
 #   WxPusher官方文档 https://wxpusher.zjiecode.com/docs/#/ 
 #   不再需要手动阅读前2篇 已更新强检模式 强检建议都要去过 手动阅读造成ip不同容易黑号
-#   cron 40 * * * *
+#   cron 30 * * * *
 #   const $ = new Env('鱼儿阅读');
 import os
 ua = os.getenv('yuanshen_useragent', '默认User-Agent值')
