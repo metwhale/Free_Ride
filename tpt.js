@@ -13,7 +13,7 @@
 不填x-ac-device-id的话脚本每次运行会随机生成一个
 export tptCookie="eyJ0xxxxxxxxxxxxxxxxxx#18f5609fe20-xxxxxxxx-xxxxx-xxxxx"
 
-cron: 14 6,18 * * *
+cron: 14 7,17 * * *
 const $ = new Env("太平通");
 */
 const _0x433672 = _0x52b7;
