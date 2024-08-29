@@ -13,7 +13,8 @@
 
     - Python依赖如下：
         - requests
-
+# const $ = new Env('星抖短剧');
+# corn 22 8-23/8 * * *
 ---------------------------------------------------
 """
 # This file requires Python 3.x and the following dependencies:
