@@ -1,7 +1,7 @@
 # !/usr/bin/python3
 # -- coding: utf-8 --
 """
-打开小程序或APP-我的-积分, 捉以下几种url之一,把整个url放到变量 sfsyUrl 里,多账号换行分割
+打开小程序或APP-我的-积分, 捉以下几种url之一,把整个url放到变量 s_sfsy 里,多账号换行分割
 https://mcs-mimp-web.sf-express.com/mcs-mimp/share/weChat/shareGiftReceiveRedirect
 https://mcs-mimp-web.sf-express.com/mcs-mimp/share/app/shareRedirect
 每天跑一到两次就行
@@ -19,7 +19,7 @@ from sys import exit
 import requests
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
 
-os.environ['NEW_VAR'] ='sfsyUrl' #环境变量
+os.environ['NEW_VAR'] ='s_sfsy' #环境变量
 # 禁用安全请求警告
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
@@ -2093,9 +2093,9 @@ export {ENV_NAME}='url'多账号#分割
     #分割变量
     if ENV_NAME in os.environ:
         tokens = re.split("@|#|\n",os.environ.get(ENV_NAME))
-    elif "sfsyUrl" in os.environ:
+    elif "s_sfsy" in os.environ:
         print("调用拉菲变量")
-        tokens = re.split("@|#|\n",os.environ.get("sfsyUrl"))
+        tokens = re.split("@|#|\n",os.environ.get("s_sfsy"))
     else:
         tokens =['']
         print(f'无{ENV_NAME}变量')
